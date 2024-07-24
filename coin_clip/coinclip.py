@@ -22,6 +22,7 @@ from typing import List, Union, Tuple
 from pathlib import Path
 
 import numpy as np
+import pandas as pd
 import torch
 from PIL import Image, ImageFile
 import torch.nn.functional as F

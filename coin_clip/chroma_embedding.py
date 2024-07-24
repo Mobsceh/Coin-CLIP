@@ -19,6 +19,7 @@
 
 import importlib
 from typing import cast
+import numpy as np
 
 from chromadb.utils.embedding_functions import OpenCLIPEmbeddingFunction
 from chromadb.api.types import Document, Embedding, Image
